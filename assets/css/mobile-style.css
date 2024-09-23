@@ -1,0 +1,82 @@
+@media (max-width: 850px) {
+  .content {
+    flex-direction: column-reverse;
+    width: 80%;
+    max-width: 30rem;
+    flex-wrap: wrap;
+  }
+
+  .first-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: none;
+  }
+
+  .second-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .second-grid .item p {
+    font-weight: 300;
+  }
+
+  .second-grid .item:nth-child(1) img {
+    width: 80%;
+  }
+  .second-grid .item:nth-child(1) h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .second-grid .item:nth-child(1) p {
+    font-size: 1.5rem;
+  }
+  .second-grid .item:nth-child(2) img {
+    width: 100%;
+  }
+  .second-grid .item:nth-child(2) {
+    text-align: center;
+  }
+
+  .second-grid .item:nth-child(3) img {
+    width: 100%;
+  }
+  .second-grid .item:nth-child(3) h1 {
+    font-size: 2.5rem;
+  }
+
+  .second-grid .item:nth-child(4) {
+    padding-bottom: 0;
+  }
+  .second-grid .item:nth-child(4) h1 {
+    font-size: 2.5rem;
+  }
+  .second-grid .item:nth-child(4) img {
+    position: unset;
+    max-width: none;
+    width: 100%;
+  }
+
+  .second-grid .item:nth-child(5) {
+    gap: 2rem;
+  }
+  .second-grid .item:nth-child(5) h1 {
+    font-size: 3rem;
+  }
+
+  .second-grid .item:nth-child(6) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .second-grid .item:nth-child(6) img {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .second-grid .item:nth-child(6) h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+  }
+}
